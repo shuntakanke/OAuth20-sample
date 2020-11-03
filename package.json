@@ -1,0 +1,29 @@
+{
+  "name": "feedbackapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuntakanke/feedbackApp.git"
+  },
+  "author": "shunta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuntakanke/feedbackApp/issues"
+  },
+  "homepage": "https://github.com/shuntakanke/feedbackApp#readme",
+  "dependencies": {
+    "config": "^3.3.2",
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
